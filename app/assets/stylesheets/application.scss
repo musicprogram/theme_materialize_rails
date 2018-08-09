@@ -16,7 +16,7 @@
  *= require_self
  */
 
-.page-header{
+.page-header_par{
 	background-image: url('bg2.jpg');
 }
 
@@ -26,4 +26,18 @@
 
 .section-signup{
 	background-image: url('city.jpg');
+}
+
+.page-header_landing{
+	background-image: url('profile_city.jpg');
+}
+
+.page-header_login{
+	background-image: url('bg7.jpg'); 
+	background-size: cover; 
+	background-position: top center;
+}
+
+.page-header_profile{
+	background-image: url('city-profile.jpg');
 }

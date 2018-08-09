@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  get 'pages/index'
+  get 'pages/landing'
+
+  get 'pages/login'
+
+  get 'pages/profile'
 
   root 'pages#main'
 
